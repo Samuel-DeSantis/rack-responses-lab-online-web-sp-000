@@ -1,6 +1,6 @@
 class Time
   attr_accessor :year, :month, :day, :hour, :minute
-  
+
   def initialize(year, month, day, hour, minute)
     @year = year
     @month = month
